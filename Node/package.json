@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node-npm-learning",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zamesow/goit-js-hw-09-node-npm/tree/main/Node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^17.3.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
+  }
+}
