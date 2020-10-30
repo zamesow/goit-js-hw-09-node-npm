@@ -4,8 +4,8 @@
   "description": "node-npm-learning",
   "main": "index.js",
   "scripts": {
-    "server": "node server.js",
-    "build": "babel src -d lib"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -14,12 +14,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chokidar": "^3.4.3",
+    "core-js": "^3.6.5",
     "joi": "^17.3.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
     "shortid": "^2.2.16"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.12.1"
+    "@babel/preset-env": "^7.12.1",
+    "parcel-bundler": "^1.12.4"
   }
 }
